@@ -88,9 +88,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🔗 Links
 
 - **Live Demo:** [https://link-rotator.com](https://link-rotator.com)
-- **Documentation:** Coming soon
-- **Support:** Create an issue on GitHub
+- **Support:** [Telegram Channel](https://t.me/sanjivvip)
 
 ---
 
-*Built with ❤️ for smarter link management* 
+*Built with ❤️ for smarter link management* e
