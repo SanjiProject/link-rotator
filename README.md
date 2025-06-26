@@ -90,38 +90,15 @@ link-rotator/
 └── redirect.php           # Link redirection handler
 ```
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/link-rotator.git
-   cd link-rotator
-   ```
+Visit **[https://link-rotator.com](https://link-rotator.com)** to start using the platform immediately!
 
-2. **Set up your web server** (Apache/Nginx with PHP support)
-
-3. **Configure the database** in `config/database.php`
-
-4. **Create the database** - Tables will be auto-created on first run
-
-5. **Access the application** in your browser
-
-## 🔧 Configuration
-
-### Database Setup
-Edit `config/database.php` with your database credentials:
-
-```php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'your_username');
-define('DB_PASS', 'your_password');
-define('DB_NAME', 'link_rotator');
-```
-
-### Default Admin Account
-- **Email:** admin@linkrotator.com
-- **Password:** admin123
-- ⚠️ **Important:** Change these credentials after first login!
+### How to Use:
+1. **Create Links** - Add multiple destination URLs to create a rotator
+2. **Choose Rotation Type** - Select Round Robin or Random rotation
+3. **Track Performance** - Monitor clicks and analytics in real-time
+4. **Manage Links** - Edit, delete, or create new rotators anytime
 
 ## 🌐 API Endpoints
 
@@ -132,9 +109,9 @@ define('DB_NAME', 'link_rotator');
 - `DELETE /api/delete-link.php` - Delete link
 - `PUT /api/update-link.php` - Update link settings
 
-## 🤝 Contributing
+## 💬 Feedback
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Have suggestions or found a bug? Feel free to create an issue or reach out!
 
 ## 📄 License
 
