@@ -67,29 +67,6 @@ A powerful web application that creates intelligent short links capable of rotat
 - **Content Testing** - Test different content variations
 - **Geographic Routing** - Route users to region-specific content
 
-## 📁 Project Structure
-
-```
-link-rotator/
-├── api/                    # API endpoints
-│   ├── create-link.php     # Link creation
-│   ├── link-analytics.php  # Analytics data
-│   ├── login.php          # Authentication
-│   └── ...
-├── config/                 # Configuration files
-│   └── database.php       # Database settings
-├── dashboard/             # User dashboard
-├── admin/                 # Admin panel
-├── includes/              # Shared utilities
-│   ├── auth.php           # Authentication helpers
-│   ├── functions.php      # Core functions
-│   └── captcha.php        # Captcha system
-├── public/                # Static assets
-│   ├── style.css          # Styling
-│   └── script.js          # JavaScript
-└── redirect.php           # Link redirection handler
-```
-
 ## 🚀 Getting Started
 
 Visit **[https://link-rotator.com](https://link-rotator.com)** to start using the platform immediately!
@@ -99,15 +76,6 @@ Visit **[https://link-rotator.com](https://link-rotator.com)** to start using th
 2. **Choose Rotation Type** - Select Round Robin or Random rotation
 3. **Track Performance** - Monitor clicks and analytics in real-time
 4. **Manage Links** - Edit, delete, or create new rotators anytime
-
-## 🌐 API Endpoints
-
-- `POST /api/create-link.php` - Create new rotator link
-- `GET /api/link-analytics.php` - Get link statistics
-- `POST /api/login.php` - User authentication
-- `POST /api/register.php` - User registration
-- `DELETE /api/delete-link.php` - Delete link
-- `PUT /api/update-link.php` - Update link settings
 
 ## 💬 Feedback
 
